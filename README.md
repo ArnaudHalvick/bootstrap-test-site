@@ -37,22 +37,6 @@ This project serves as a demonstration of Bootstrap 5 implementation, showcasing
 - **Performance Optimized:** Minimal custom CSS, leveraging Bootstrap's utility classes
 - **Cross-Browser Compatible:** Tested across major browsers
 
-## Local Development
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/bootstrap-showcase.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd bootstrap-showcase
-```
-
-3. Open `index.html` in your browser or use a local server.
-
 ## Learning Outcomes
 
 This project demonstrates understanding of:
