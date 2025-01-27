@@ -2,6 +2,10 @@
   text-align: justify;
 }
 
+.ratio {
+  min-height: 300px;
+}
+
 @media (min-width: 768px) {
   .news-input {
     width: 50%;
