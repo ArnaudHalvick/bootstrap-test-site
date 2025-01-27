@@ -58,7 +58,11 @@
               Welcome to our amazing site! We offer a variety of offerings to
               cater to your needs.
             </p>
-            <button class="btn btn-primary btn-lg">
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#offeringsModal"
+            >
               Explore Our Offerings
             </button>
           </div>
@@ -691,5 +695,85 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="offeringsModal"
+      tabindex="-1"
+      aria-labelledby="offeringsModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="offeringsModalLabel">Our Offerings</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <div class="card-body text-center">
+                      <i class="bi bi-laptop fs-1 text-primary mb-3"></i>
+                      <h5 class="card-title">Web Development</h5>
+                      <p class="card-text">
+                        Custom websites tailored to your needs
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <div class="card-body text-center">
+                      <i class="bi bi-phone fs-1 text-primary mb-3"></i>
+                      <h5 class="card-title">Mobile Apps</h5>
+                      <p class="card-text">
+                        Native and cross-platform mobile applications
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-3">
+                    <div class="card-body text-center">
+                      <i class="bi bi-gear fs-1 text-primary mb-3"></i>
+                      <h5 class="card-title">Consulting</h5>
+                      <p class="card-text">
+                        Expert technical consulting services
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-12">
+                  <p class="text-center">
+                    Contact us today to learn more about how we can help your
+                    business grow!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
